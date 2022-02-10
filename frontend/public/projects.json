@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Ojingeo",
+        "previewImage":"/ojingeo.png",
+        "date": "January 2022",
+        "description": "Ojingeo is a squid game management application. It features 2 portals, one for the frontman to manage players and works and another for the VIPs to bet on the players. It also features a completely functional bitcoin payment mechanism through which the VIPs can make transactions.",
+        "categories": ["NodeJS", "Onion Routing", "Bitcoin"],
+        "links": [
+            ["Live", "https://ojingeo.ujju.xyz/"],
+            ["Source code", "https://github.com/ujjujjuj/ojingeo/"]
+        ]
+    },{
+        "name": "Snake OS",
+        "previewImage":"/snake-os.png",
+        "date": "November 2021",
+        "description": "Snake OS is an operating system that i made to learn more about how computers and operating systems work. It has its own bootloader and runs in 16 bit real mode. Everything is written in NASM Assembly. It uses BIOS interrupts to interact with hardware",
+        "categories": ["Assembly"],
+        "links": [
+            ["Source code", "https://github.com/ujjujjuj/snake-os/"]
+        ]
+    },{
+        "name": "Ujju Token",
+        "previewImage":"/ujju-token.png",
+        "date": "January 2022",
+        "description": "Ujju Token is an ERC-20 smart contract deployed on the Ropsten Ethereum testnet. I made this project to learn more about smart contracts and how the Ethereum blockchain works. You can buy these tokens using Ropsten ETH",
+        "categories": ["Web3"],
+        "links": [
+            ["Source code", "https://github.com/ujjujjuj/ujju-token/"]
+        ]
+    },{
+        "name": "Entente",
+        "previewImage":"/entente.png",
+        "date": "July 2020",
+        "description": "Entente (/ɒnˈtɒnt,ɒ̃ˈtɒ̃t/) is an easy to use project management web-application designd to simplify remote work, with an intuitive interface and support for the visually impaired.",
+        "categories": ["NodeJS", "Web Speech API"],
+        "links": [
+            ["Source code", "https://github.com/ujjujjuj/entente"]
+        ]
+    }
+]

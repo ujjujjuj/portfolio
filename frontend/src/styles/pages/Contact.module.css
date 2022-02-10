@@ -1,0 +1,100 @@
+.mainContainer {
+    flex: 1;
+    width: 100vw;
+    margin-top: -54px;
+    padding: 54px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-size: 10.1vw 10.1vw;
+    background-position: -2px 54px;
+    background-image: linear-gradient(to right, var(--dull) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--dull) 1px, transparent 1px);
+}
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: center;
+    width: 90vw;
+}
+.contactDiv > span {
+    font-family: "Space Mono", monospace;
+    color: var(--rde);
+    font-size: 3rem;
+    display: inline-block;
+    margin: 32px 0 50px 0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+.formInput {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.formInput > span {
+    margin: 12px 0;
+    font-size: 1.1rem;
+}
+.formInput > input,
+.formInput > textarea {
+    font-family: inherit;
+    background-color: var(--input-bg);
+    border: 1px solid var(--input-border);
+    color: var(--input-color);
+    border-radius: 3px;
+    width: 100%;
+    padding: 16px;
+    font-size: 1.05rem;
+    user-select: none;
+}
+
+.formInput > textarea {
+    height: 200px;
+    resize: none;
+}
+.formSubmit {
+    width: 150px;
+    padding: 16px;
+    border-radius: 1000px;
+    color: #ffffff;
+    background-color: var(--rde);
+    border: none;
+    font-size: 1.1rem;
+}
+.formSubmit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.formSubmit:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+.formSubmit.success:disabled {
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mainContainer {
+        background-size: 25.2vw 25.2vw;
+    }
+    .contactDiv {
+        align-items: center;
+    }
+    .contactDiv > span {
+        font-size: 2.4rem;
+    }
+    .form {
+        width: 100%;
+    }
+    .formInput > input,
+    .formInput > textarea {
+        width: 100%;
+    }
+}

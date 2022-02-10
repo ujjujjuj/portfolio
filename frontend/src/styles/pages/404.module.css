@@ -1,0 +1,44 @@
+.mainContainer {
+    flex: 1;
+    width: 100vw;
+    margin-top: -54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 10.1vw 10.1vw;
+    background-position: -2px 54px;
+    background-image: linear-gradient(to right, var(--dull) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--dull) 1px, transparent 1px);
+}
+.title,
+.desc {
+    text-align: center;
+    color: var(--rde);
+    font-family: "Space Mono", monospace;
+    font-size: min(8em, 22vw);
+    padding: 0 15px;
+}
+.desc {
+    font-size: 2em;
+}
+
+.returnBtn {
+    display: block;
+    margin-top: 32px;
+    font-size: 1.2rem;
+    padding: 0.6em 1.5em;
+    background-color: var(--rde);
+    color: white;
+    border-radius: 100px;
+    transition: opacity 0.2s;
+}
+.returnBtn:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mainContainer {
+        background-size: 25.2vw 25.2vw;
+    }
+}
