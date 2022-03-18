@@ -26,9 +26,11 @@
     height: 100%;
 }
 
+.navLink {
+    color: inherit !important;
+}
 .navLogo,
 .navLink {
-    color:inherit !important;
     height: 100%;
     display: flex;
     align-items: center;
